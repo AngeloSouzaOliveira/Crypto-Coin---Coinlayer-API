@@ -1,0 +1,140 @@
+:root {
+    --primary: #E3A33D;
+    --primaryLight: #333333;
+    --primaryDark: #222222;
+    --secondary: #022180;
+    --secondaryLight: #888888;
+    --secondaryDark: #021859;
+}
+
+body {
+    font-family: navigo, sans-serif;
+}
+
+.header {
+    background-color: #1c1c1c;
+}
+
+.this::after {
+    content: "";
+    width: 100%;
+    left: 0px;
+    height: 509px;
+    background: url("../img/back.jpg") no-repeat;
+    position: absolute;
+    display: inline-block;
+}
+
+.btnTo {
+    color: var(--primary);
+    border-radius: 100px;
+    border: 1px solid #535353;
+    margin-right: 5px;
+    padding: 2px 5px;
+    font-size: 0.5rem;
+    vertical-align: text-top;
+    ;
+}
+
+.btnTo:hover {
+    border-radius: 100px;
+    border: 1px solid #444444;
+    background-color: #e3a33d38;
+    margin-right: 5px;
+    padding: 2px 5px;
+    font-size: 0.5rem;
+    vertical-align: text-top;
+    color: var(--primary);
+}
+
+.pd {
+    margin: 0px 1rem;
+}
+
+.flex-shrink-0 {
+    background-color: white;
+    border-radius: 15px!important;
+}
+
+.bg_dark {
+    background: #1c1c1c;
+}
+
+.bg_primary_light {
+    background: var(--primaryLight);
+}
+
+.bg_primary_light:hover {
+    background: #3f3f3f;
+}
+
+.drop_shadow_card {
+    box-shadow: -3px -1px 15px 1px rgba(0, 0, 0, 0.21)!important;
+    -webkit-box-shadow: -3px -1px 15px 1px rgba(0, 0, 0, 0.21)!important;
+    -moz-box-shadow: -3px -1px 15px 1px rgba(0, 0, 0, 0.21)!important;
+}
+
+.drop_header {
+    box-shadow: -1px 11px 18px -6px rgba(0, 0, 0, 0.65)!important;
+    -webkit-box-shadow: -1px 11px 18px -6px rgba(0, 0, 0, 0.65)!important;
+    -moz-box-shadow: -1px 11px 18px -6px rgba(0, 0, 0, 0.65)!important;
+}
+
+.text-primary,
+a {
+    color: var(--primary) !important;
+}
+
+.text-gray {
+    color: #EEEEEE;
+}
+
+.text_sencudary_light {
+    color: var(--secondaryLight)!important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ffffff14!important;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-top: -20px;
+}
+
+.footer {
+    font-size: 13px;
+    background-color: #161718!important;
+}
+
+.h2 {
+    padding-bottom: 35px!important;
+}
+
+.bg-body:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.text-primary {
+    color: darkcyan;
+}
+
+.text-name {
+    font-size: 1rem
+}
+
+input {
+    width: 100%;
+    background-color: #ececec;
+    border: 1px solid #dee2e6!important;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: .25rem!important;
+}
+
+input:focus {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: .25rem!important;
+}
