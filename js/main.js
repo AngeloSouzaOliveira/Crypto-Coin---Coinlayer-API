@@ -46,4 +46,6 @@ fetch('http://api.coinlayer.com/list?access_key=5cc59252a140defb290d5aafe0963a5f
 
         document.querySelector('#main').innerHTML = template;
 
-    })
+    }).catch((error) => {
+        console.error(error.message);
+    });
